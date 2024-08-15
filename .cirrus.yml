@@ -22,3 +22,4 @@ task:
     - tmate -S /tmp/tmate.sock display -p '#{tmate_ssh}' > ssh_url.txt
     - tmate -S /tmp/tmate.sock display -p '#{tmate_web}' >> ssh_url.txt
     - cat ssh_url.txt
+#
